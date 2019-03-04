@@ -59,7 +59,8 @@
 
 /* ----------- Hero ----------- */
 #hero {
-  background-image: url(./images/luca-bravo-121931-unsplash.jpg);
+  /* -background-image: url(./images/luca-bravo-121931-unsplash.jpg);- */
+  background-image: url("https://via.placeholder.com/4513x3009.png?text=Placeholder+Image");
   background-size: cover;
   background-position: center bottom;
 }
@@ -72,8 +73,8 @@
 }
 @media (min-width: 1200px) {
   #hero {
-    height: 100vh;
-    min-height: 650px;
+    height: 60vh;
+    min-height: 50px;
   }
 }
 
@@ -90,6 +91,28 @@
     max-width: 441px;
 }
 
+
+.hero-title {
+	font-weight: 600;
+	font-size: 20pt;
+	line-height: 1.4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.hero-title a:hover {
+	text-decoration: underline;
+	color: #4B4744;
+}
+
+@media (max-width: 1200px) {
+	.social_icon {
+		display:inline;
+		height:40px;
+		margin-top:10px;
+		margin-right:10px
+	}
+}
 
 
 
@@ -145,19 +168,6 @@ a:hover {
 	
 }
 
-/* ----------- Hero----------- */
-.hero-title {
-	font-weight: 600;
-	font-size: 20pt;
-	line-height: 1.4;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.hero-title a:hover {
-	text-decoration: underline;
-	color: #4B4744;
-}
 
 /* ----------- Blog ----------- */
 .blog-title {
