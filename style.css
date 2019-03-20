@@ -14,11 +14,7 @@
   #navbarMenu {
     display: none !important;
   }
-  /*
-  #xlNavbar .nav-link div:hover {
-    border-bottom: 2px solid #fff;
-	
-  } */
+
 }
 #navbar {
   z-index: 1;
@@ -45,7 +41,6 @@
 }
 
 #navbarMenuToggler {
-  /*color: rgb(255, 90, 95);*/
   transition: color 0.25s;
   z-index: 1;
 }
@@ -84,18 +79,10 @@
 /* ----------- Hero ----------- */
 #hero {
   background-image: url(./images/backsplash6a.jpg);
-  /* -background-image: url("https://via.placeholder.com/4513x3009.png?text=Placeholder+Image");- */
   background-size: cover;
   background-position: center bottom;
-}/*
-#hero h2 {
-  padding-top: 168px;
 }
 
-#message {
-  bottom: 0;
-  right: 0;
-}*/
 
 @media (min-width: 1200px) {
   #hero {
@@ -118,22 +105,7 @@
   } 
 }
 
-/*
-.hero-title {
-	font-weight: 600;
-	font-size: 10pt;
-	line-height: 1.4;
-	padding-top: px;
-	padding-bottom: 10px;
-	
-}
 
-.hero-title a:hover {
-	text-decoration: underline;
-	color: #4B4744;
-}
-
-*/
 .social_icon {
 	display:inline;
 	height:40px;
@@ -178,26 +150,7 @@ h2, h3, h4{
 .body-content {
 	padding-top: 100px;
 
-}/*
-.blog-caption {
-	text-transform: uppercase;
-	font-size: 8pt;
-	font-weight: 650;
-
 }
-.blog-caption a {
-	text-decoration: none;
-	color: #149A8F;
-	font-size: 8pt;
-} */
-
-/*
-.blog-caption a:hover {
-	text-decoration: underline;
-	color: #497671;
-
-}
-*/
 .img-responsive {
 	display:block;
 	max-width:100%;
@@ -228,21 +181,8 @@ h2, h3, h4{
 }
 .footer a{
 	font-size: 11pt;
-	/*color: #9b9b9b;*/
 }
 .footer a:hover{
 	text-decoration: underline;
 	
 }
-
-/*
-.float-left {
-	padding-bottom: 30;
-}
-.float-right {
-	text-align: right;
-	padding-bottom: 30px;
-}
-.float-right img{
-	height:23px;
-} */
