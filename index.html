@@ -19,31 +19,36 @@
 	
 	<!--Navigation
 	<nav class="navbar navbar-expand-xl py-0 position-absolute w-100 fixed-top w-100 bg-white" id="navbar"> -->
-	<nav class="navbar navbar-expand-xl py-0 fixed-top w-100 bg-white" id="navbar">
+	<nav class="navbar navbar-expand-xl py-0 fixed-top w-100 " id="navbar">
       <!-- nav for xl screens -->
       <div class="d-none d-xl-flex flex-grow-1" id="xlNavbar">
 		
-        <a class="navbar-brand py-0 pr-0 pl-2 " href="#">Mary Hooke</a>
+        <div class="navbar-brand " href="#">Mary V Hooke</div>
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link py-0 px-2 " href="#about"><div class="px-2">About Me</div></a>
           <a class="nav-item nav-link py-0 px-2 " href="#portfolio"><div class="px-2">Portfolio</div></a>
           <a class="nav-item nav-link py-0 px-2 " href="#contact"><div class="px-2">Contact</div></a>
 
-		  
+		                
         </div>
+		
+		
       </div>
+	  
+	  
       <!-- button and collapsed menu -->
 	  
       <a class="navbar-toggler navbar-brand py-0 pr-0 pl-2 border-0 position-relative collapsed" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler">
-	  <img src='./images/logo.jpg'  height='30px' style="vertical-align:middle;padding-right:15px;" /><span style="vertical-align:middle;">Menu</span></a>
+	  <img src='./images/menu.png'  height='30px' style="vertical-align:middle;padding-right:15px;" /><span style="vertical-align:middle;">Menu</span></a>
       <div class="collapse navbar-collapse px-4 pb-4 font-weight-light  bg-white position-absolute" id="navbarMenu">
-        <a class="nav-item nav-link" href="#">About Me</a>
-        <a class="nav-item nav-link" href="#">Portfolio</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
+        <a class="nav-item nav-link" href="#about">About Me</a>
+        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
 
 
 
       </div>
+	  
     </nav>
 	
 	<!-- Body -->
@@ -53,8 +58,8 @@
 			
 			<!-- Hero content -->
 			<div id="hero" class="position-relative">
-			  <div class="container-fluid">
-				<h2 class="mb-0 pb-3 pb-sm-4 text-white d-xl-none">Mary  Hooke</h2>
+			  <div class="container-fluid" id="about">
+				<h2 class="mb-0 pb-3 pb-sm-4  d-xl-none">Mary  Hooke, Front End Developer</h2>
 			  </div>
 			  
 			</div>
@@ -62,8 +67,9 @@
 			<div id="hero-container">
 			  <div class="container-fluid">
 				<div class="py-4 rounded bg-white hero-content">
-				  <h2 class="d-none d-xl-block"><div id="about">One heck of a front end developer</div></h2>
-				  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in mollis nunc sed. Massa id neque aliquam vestibulum morbi blandit.<br>
+				  <h2 class="d-none d-xl-block">Mary Hooke,<br>Front End Developer</h2>
+				  Skilled disigner with over 1 month of experience designing and building commercial web applications. Proficient in HTML, CSS, JavaScript, Bootstrap, 
+				  mobile design, GitHub, and more.  Team player with an superior work ethic and excellent communication skills.<br>
 				  <a href="https://www.linkedin.com/in/mary-hooke/" target="_blank"><img class="social_icon " src="images/LinkedInIcon.JPG" /></a>
 				  <a href="https://github.com/mhooke13" target="_blank"><img class="social_icon "  src="images/githubicon.png" /></a>
 			
@@ -77,21 +83,21 @@
 			<hr class="my-5">
 			
 			<div class="row">
-				<div id="portfolio">Portfolio</div>
+				<div id="portfolio"><h4>Portfolio</h4></div>
 			</div>
 			<div class="row">
 			  <div class="col-12 col-sm-4 right-divider">
 				<div class="blog-caption">
 					<img src="https://via.placeholder.com/300x200.png?text=Placeholder+Image" class="img-responsive">
 					
-					<a href="#">Project 1 </a>
+					
 
 				</div>
 				<div class="blog-title">
-					<a href="#">Super Cool Project 1</a>
+					<a href="#"><h5>Placeholder Project 1</h5></a>
 				</div>
 				<div class="blog-summary">
-					Project description consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in mollis nunc sed. Massa id neque aliquam vestibulum morbi
+					Insert brief project description - consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in mollis nunc sed. Massa id neque aliquam vestibulum morbi
 				</div>
 			  </div>
 			  
@@ -100,14 +106,14 @@
 				<div class="blog-caption">
 					<img src="https://via.placeholder.com/300x200.png?text=Placeholder+Image" class="img-responsive">
 					
-					<a href="#">Project 2 </a>
+					
 
 				</div>
 				<div class="blog-title">
-					<a href="#">Super Cool Project 2</a>
+					<a href="#"><h5>Placeholder Project 2</h5></a>
 				</div>
 				<div class="blog-summary">
-					Project description consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in mollis nunc sed. Massa id neque aliquam vestibulum morbi
+					Insert brief project description -  tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in mollis nunc sed. Massa id neque aliquam vestibulum morbi
 				</div>
 			  </div>
 			 
@@ -116,14 +122,14 @@
 				<div class="blog-caption">
 					<img src="https://via.placeholder.com/300x200.png?text=Placeholder+Image" class="img-responsive">
 					
-					<a href="#">Project 3 </a>
+					
 
 				</div>
 				<div class="blog-title">
-					<a href="#">Super Cool Project 3</a>
+					<a href="#"><h5>Placeholder Project 3</h5></a>
 				</div>
 				<div class="blog-summary">
-					Project description consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in mollis nunc sed. Massa id neque aliquam vestibulum morbi
+					Insert brief project description -  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in mollis nunc sed. Massa id neque aliquam vestibulum morbi onsectetur adipiscing elit, sed do eiusmod
 				</div>
 			  </div>
 			</div>
@@ -131,7 +137,7 @@
 			<hr class="my-5">
 			
 			<div class="row">
-				<div id="contact">Contact Information</div>
+				<div id="contact"><h4>Contact Information</h4></div>
 			</div>
 			<div class="row footer">
 			

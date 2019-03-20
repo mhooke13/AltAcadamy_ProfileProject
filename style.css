@@ -14,41 +14,65 @@
   #navbarMenu {
     display: none !important;
   }
+  /*
   #xlNavbar .nav-link div:hover {
     border-bottom: 2px solid #fff;
-  }
+	
+  } */
 }
 #navbar {
   z-index: 1;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
 }
-#xlNavbar .navbar-brand, #navbarMenuToggler, #xlNavbar .nav-link {
-  line-height: 80px;
+#navbarMenuToggler, #xlNavbar .navbar-brand,  #xlNavbar .nav-link {
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
 }
+
+#xlNavbar .navbar-brand {
+  color: #0C2F58;
+}
+
 #xlNavbar .nav-link {
-  font-size: 14px;
- 
+  color: #AF7F6B;
 }
+
+#xlNavbar .nav-link:hover {
+  text-decoration: underline;
+  color: #0C2F58;
+}
+
 #navbarMenuToggler {
-  color: rgb(255, 90, 95);
+  /*color: rgb(255, 90, 95);*/
   transition: color 0.25s;
   z-index: 1;
 }
 #navbarMenuToggler.collapsed {
-  color: #fff;
+  color: #AF7F6B;
 }
 #navbarMenu .nav-link {
-  color: #333;
+  color:  #AF7F6B;
   font-size:14pt;
+  font-weight: 350;
 }
 #navbarMenu {
   top: 0;
   left: 0;
   right: 0;
-  padding-top: 88px;
+  padding-top: 65px;
+  
 }
 #navbarMenu .nav-link {
-  padding: 12px 0;
+  padding: 5px 0;
 }
+
+#navbarMenu .nav-link:hover {
+    text-decoration: underline;
+	color: #0C2F58;
+}
+
 .nav-image img{
 	height:30px;
 }
@@ -59,21 +83,23 @@
 
 /* ----------- Hero ----------- */
 #hero {
-  /* -background-image: url(./images/luca-bravo-121931-unsplash.jpg);- */
-  background-image: url("https://via.placeholder.com/4513x3009.png?text=Placeholder+Image");
+  background-image: url(./images/backsplash6a.jpg);
+  /* -background-image: url("https://via.placeholder.com/4513x3009.png?text=Placeholder+Image");- */
   background-size: cover;
   background-position: center bottom;
-}
+}/*
 #hero h2 {
   padding-top: 168px;
 }
+
 #message {
   bottom: 0;
   right: 0;
-}
+}*/
+
 @media (min-width: 1200px) {
   #hero {
-    height: 60vh;
+    height: 75vh;
     min-height: 50px;
   }
 }
@@ -81,7 +107,7 @@
 @media (min-width: 1200px) {
   #hero-container {
     position: absolute;
-    top: 120px;
+    top: 50px;
     width: 100%;
   }
 
@@ -89,15 +115,17 @@
 	padding: 32px;
     box-shadow: 0 16px 40px rgba(0,0,0,0.12);
     max-width: 441px;
+  } 
 }
 
-
+/*
 .hero-title {
 	font-weight: 600;
-	font-size: 20pt;
+	font-size: 10pt;
 	line-height: 1.4;
-	padding-top: 10px;
+	padding-top: px;
 	padding-bottom: 10px;
+	
 }
 
 .hero-title a:hover {
@@ -105,14 +133,14 @@
 	color: #4B4744;
 }
 
-@media (max-width: 1200px) {
-	.social_icon {
-		display:inline;
-		height:40px;
-		margin-top:10px;
-		margin-right:10px
-	}
+*/
+.social_icon {
+	display:inline;
+	height:40px;
+	margin-top:10px;
+	margin-right:10px
 }
+
 
 
 
@@ -125,10 +153,18 @@ body {
 
 a {
 	text-decoration: none;
-	color: #4B4744;
+	color: #AF7F6B;
 	font-size: 18pt;
 
 }
+
+
+a:hover {
+	text-decoration: underline;
+	color: #0C2F58;
+	
+}
+
 @media (min-width: 1200px) {
   .right-divider {
     border-right:1px solid lightgray;
@@ -136,15 +172,13 @@ a {
 }
 
 
-a:hover {
-	text-decoration: none;
-	color: #149A8F;
-	
+h2, h3, h4{
+	color: #0C2F58;
 }
 .body-content {
 	padding-top: 100px;
 
-}
+}/*
 .blog-caption {
 	text-transform: uppercase;
 	font-size: 8pt;
@@ -155,12 +189,15 @@ a:hover {
 	text-decoration: none;
 	color: #149A8F;
 	font-size: 8pt;
-}
+} */
+
+/*
 .blog-caption a:hover {
 	text-decoration: underline;
 	color: #497671;
 
 }
+*/
 .img-responsive {
 	display:block;
 	max-width:100%;
@@ -179,14 +216,9 @@ a:hover {
 }
 .blog-title a:hover {
 	text-decoration: underline;
-	color: #4B4744;
+	color: #0C2F58;
 }
-.blog-image {
-	
-}
-.blog1 {
-	background-image: url(./images/flags.jpg);
-}
+
 
 /* ----------- Footer ----------- */
 .footer {
@@ -196,14 +228,15 @@ a:hover {
 }
 .footer a{
 	font-size: 11pt;
-	color: #9b9b9b;
+	/*color: #9b9b9b;*/
 }
 .footer a:hover{
 	text-decoration: underline;
 	
 }
-.float-left {
 
+/*
+.float-left {
 	padding-bottom: 30;
 }
 .float-right {
@@ -212,4 +245,4 @@ a:hover {
 }
 .float-right img{
 	height:23px;
-}
+} */
