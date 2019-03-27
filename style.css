@@ -78,7 +78,7 @@
 
 /* ----------- Hero ----------- */
 #hero {
-  background-image: url(./images/backsplash6a.jpg);
+  background-image: url(./images/backsplash6b.jpg);
   background-size: cover;
   background-position: center bottom;
 }
@@ -90,6 +90,10 @@
     min-height: 50px;
   }
 }
+
+
+  
+  
 
 @media (min-width: 1200px) {
   #hero-container {
@@ -142,6 +146,7 @@ a:hover {
     border-right:1px solid lightgray;
   }
 }
+
 
 
 h2, h3, h4{
